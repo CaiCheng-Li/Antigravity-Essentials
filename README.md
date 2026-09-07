@@ -14,6 +14,9 @@ The default Antigravity status line script has been upgraded to be contextually 
 
 <img width="511" height="155" alt="Screenshot 2026-09-07 011134" src="https://github.com/user-attachments/assets/24c7c975-af71-49a9-ab73-314744e0108f" /> <img width="451" height="146" alt="Screenshot 2026-09-07 011151" src="https://github.com/user-attachments/assets/deea2bbc-8a72-4194-94b9-8b9fa58317e4" />
 
+### 3. The `--yolo` Flag (Fast Permissions)
+Tired of typing out `--dangerously-skip-permissions`? You can now use the ultra-short `--yolo` alias to automatically approve all tool permission requests without prompting.
+
 ---
 
 ## ⚡ Quick Install (Auto-Setup)
@@ -77,5 +80,5 @@ agy --resume
 ```
 You can also chain native flags together! For example:
 ```bash
-agy --dangerously-skip-permissions --resume
+agy --yolo --resume
 ```
