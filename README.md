@@ -4,11 +4,15 @@ A collection of power-user enhancements and scripts for the Google Antigravity C
 
 ## Features
 
-### 1. Codex-Style Interactive Resume (`--resume`)
+### 1. Interactive Resume (`--resume`)
 Tired of scrolling through logs to find a conversation ID? The `--resume` flag adds a sleek, arrow-key navigable Terminal User Interface (TUI) directly inside your terminal. It filters conversations to your current working directory and displays a snippet of your original prompt so you can easily pick up where you left off.
+
+<img width="947" height="328" alt="Screenshot 2026-09-07 010903" src="https://github.com/user-attachments/assets/8e07c8b0-4938-4a52-b8ae-38a70787424b" />
 
 ### 2. Dynamic Model-Aware Status Line
 The default Antigravity status line script has been upgraded to be contextually aware of your active AI model. When you use `/model` to switch between Gemini and Claude/GPT, the usage bars at the bottom of your screen instantly adapt, filtering out irrelevant rate limits and showing you exactly the quota buckets that matter for your current session.
+
+<img width="511" height="155" alt="Screenshot 2026-09-07 011134" src="https://github.com/user-attachments/assets/24c7c975-af71-49a9-ab73-314744e0108f" /> <img width="451" height="146" alt="Screenshot 2026-09-07 011151" src="https://github.com/user-attachments/assets/deea2bbc-8a72-4194-94b9-8b9fa58317e4" />
 
 ---
 
