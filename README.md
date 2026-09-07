@@ -12,7 +12,8 @@ Tired of scrolling through logs to find a conversation ID? The `--resume` flag a
 ### 2. Dynamic Model-Aware Status Line
 The default Antigravity status line script has been upgraded to be contextually aware of your active AI model. When you use `/model` to switch between Gemini and Claude/GPT, the usage bars at the bottom of your screen instantly adapt, filtering out irrelevant rate limits and showing you exactly the quota buckets that matter for your current session.
 
-<img width="511" height="155" alt="Screenshot 2026-09-07 011134" src="https://github.com/user-attachments/assets/24c7c975-af71-49a9-ab73-314744e0108f" /> <img width="451" height="146" alt="Screenshot 2026-09-07 011151" src="https://github.com/user-attachments/assets/deea2bbc-8a72-4194-94b9-8b9fa58317e4" />
+<img width="511" height="155" alt="Screenshot 2026-09-07 011134" src="https://github.com/user-attachments/assets/24c7c975-af71-49a9-ab73-314744e0108f" /> <img width="511" height="155" alt="Screenshot 2026-09-07 011151Bigger" src="https://github.com/user-attachments/assets/7c1b9a5a-a68c-476c-9b26-dad327267b86" />
+
 
 ### 3. The `--yolo` Flag (Fast Permissions)
 Tired of typing out `--dangerously-skip-permissions`? You can now use the ultra-short `--yolo` alias to automatically approve all tool permission requests without prompting.
