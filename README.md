@@ -16,7 +16,19 @@ The default Antigravity status line script has been upgraded to be contextually 
 
 ---
 
-## Installation
+## ⚡ Quick Install (Auto-Setup)
+
+Open **PowerShell** and paste the following command to automatically download the scripts, configure your PowerShell profile, set up your CMD registry hook, and enable the dynamic status line:
+
+```powershell
+Invoke-RestMethod -Uri "https://raw.githubusercontent.com/CaiCheng-Li/Antigravity-Essentials/main/install.ps1" | Invoke-Expression
+```
+
+*(You can review the install script [here](https://github.com/CaiCheng-Li/Antigravity-Essentials/blob/main/install.ps1)).*
+
+---
+
+## Manual Installation
 
 Download or clone all the scripts in this repository to your home folder (`%USERPROFILE%`), for example `C:\Users\YourName\`.
 
