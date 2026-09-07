@@ -8,6 +8,12 @@ function agy {
         [Parameter(ValueFromRemainingArguments)]
         [string[]]$Arguments
     )
+    
+    # Translate custom aliases
+    $Arguments = @($Arguments | ForEach-Object {
+        if ($_ -eq '--yolo') { '--dangerously-skip-permissions' } else { $_ }
+    })
+
 
     # Check if --resume is in the arguments
     if ($Arguments -contains '--resume') {
@@ -23,7 +29,7 @@ function agy {
     }
 
     # Otherwise, pass through to the real agy binary
-    $agyExe = Join-Path $env:LOCALAPPDATA "agy" "bin" "agy.exe"
+    $agyExe = [System.IO.Path]::Combine($env:LOCALAPPDATA, "agy", "bin", "agy.exe")
     if (-not (Test-Path $agyExe)) {
         # Fallback: find it on PATH
         $agyExe = (Get-Command agy.exe -ErrorAction SilentlyContinue).Source
